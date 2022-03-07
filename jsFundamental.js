@@ -1,6 +1,9 @@
 
 
+
                 /* 1. Declear 3 variable in 3 types : var, let, const. */
+
+
 
 // var  do not use var type variable:-
 var product = 'Amul Jus';
@@ -14,9 +17,9 @@ console.log(product);
 let powerHouse = 'My Power House in Bangladesh';
 console.log(powerHouse);
 
+// reassign variable
 powerHouse = 'My power house name is Noman Abdullah Power house';
 console.log(powerHouse);
-
 
 
 // const use for constant variable. do not redeclear and reassing in this variable:-
@@ -27,6 +30,8 @@ console.log(names);
 
                 /* 2. Use for conditon */
 
+
+
 // use if & else:-
 const names1 = 'abdulllah al nomaan'
 if(names1 === 'abdulla'){
@@ -35,7 +40,6 @@ if(names1 === 'abdulla'){
 else{
     console.log('not found');
 }; 
-
 
 
 // use if, else & else if:-
@@ -53,6 +57,8 @@ else{
 
 
                 /* 3. Muyltiple conditon  && and || */
+
+
 
 // && end conditional operator:-
 const num = 100;
@@ -76,6 +82,7 @@ else{
 
 
                 /* 4. Declear an array */
+
 
 
 // declare an array:-
@@ -106,12 +113,10 @@ student5.pop();
 console.log(student5); 
 
 
-
 // array add new element in any array index:-
 const students6 = ['Rahim', 'Karim', 'Fahim', 'Asiq', 'Kalia'];
 students6[2] = 'Mafia';
 console.log(students6); 
-
 
 
 // add new array element in any array positions:-
@@ -120,7 +125,10 @@ students7.splice(3, 0,'indexxx');
 console.log(students7); 
 
 
-                /* 4 types of loop */
+
+                /* 5. types of loop */
+
+
 
 // while loop use of array
 
@@ -159,7 +167,9 @@ for(const key in obj1){
 } 
 
 
-                /* 5. simple function */
+
+                /* 6. simple function */
+
 
 
 // creat simple function and function call and return funtion:-
@@ -175,7 +185,7 @@ console.log(funcNumCall);
 
 
 
-                /* 6. Declare an object */
+                /* 7. Declare an object */
 
 
 
